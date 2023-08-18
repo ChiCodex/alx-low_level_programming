@@ -1,1 +1,1 @@
-## More functions and nested loops project
+## 0x04. C - More functions, more nested loops
