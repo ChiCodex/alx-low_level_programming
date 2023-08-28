@@ -2,19 +2,21 @@
 #include <strings.h>
 
 /**
-* *_memcpy - copy memory data
-* @dest: pointer
-* @src: pointer to be copied
-* @n: times it copies
-* Return: return dest
-*/
-char *_memcpy(char *dest, char *src, unsigned int n)
+ * *_memset - fills memory with a constant byte
+ * @s: memory to be filled
+ * @b: desired value
+ * @n: number of bytes to be changed
+ *
+ * Return: changed array with new value for n bytes
+ */
+ char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; n > 0; i++)
 	{
-		dest[i] = src[i];
+		s[i] = b;
+		n--;
 	}
-	return (dest);
+	return (s);
 }
