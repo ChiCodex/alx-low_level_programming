@@ -5,7 +5,7 @@
  * @n: A pointer to an unsigned integer
  * @index: Index to set value to 1
  * Return: 1 if it worked
- *		  -1 if an error occured
+ *		  -1 if an error occured.
 */
 
 int set_bit(unsigned long int *n, unsigned int index)
