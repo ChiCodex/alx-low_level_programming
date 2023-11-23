@@ -16,6 +16,6 @@ This is a project on Bit manipulation and bitwise operators in C
 
 ```bash
 
-git clone https://github.com/Huclark/alx-low_level_programming.git
+git clone https://github.com/Chicodex/alx-low_level_programming.git
 cd 0x14-bit_manipulation
 npm install
