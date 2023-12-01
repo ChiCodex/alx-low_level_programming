@@ -14,7 +14,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int unint_value = 0; /* Converted number */
 
 	int index = 0;
-
+ 
 	if (b == NULL) /* Check if we are pointing to NULL string */
 		return (0);
 
